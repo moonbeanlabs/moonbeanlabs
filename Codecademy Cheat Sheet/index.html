@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Cheat Sheet: HTML Table Reference</title>
+    <link href="./styles.css" type="text/css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>HTML Table Reference</h1>
+            <nav>
+                <ul>
+                    <li><a href="#tags">Table Tags</a></li>
+                    <li><a href="#attributes">Table Attributes</a></li>
+                   
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="question">
+                <h2 class="question">What's a Table?</h2>
+                    <p id="pullquote">A table represents information in grid format. 
+                        Examples of tables include financial reports, TV schedules
+                        and sports results.
+                    </p>
+            </div>
+            <div id="tags">
+                <h2>Table Tags</h2>
+                <table>
+                    <thead>
+                        <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        </tr>
+                    <tbody>
+                        <tr>
+                            <td class="code"><span>&lt;table&gt;</span></td>
+                            <td>Table</td>
+                            <td>The &lt;table&gt; element is used to create a table. The contents of the table are written out row by row. </td>
+                        </tr>
+                        <tr>
+                            <td class="code"><span>&lt;thead&gt; or &lt;th&gt;</span></td>
+                            <td>Table Head</td>
+                            <td>The &lt;thead&gt; element is used to represent the header for either column or row</td>
+                        </tr>
+                        <tr>
+                            <td class="code"><span>&lt;tbody&gt;</span></td>
+                            <td>Table Body</td>
+                            <td>The &lt;tbody&gt; contains the set of rows that make up the table data</td>
+                        </tr>
+                        <tr>
+                            <td class="code"><span>&lt;tr&gt;</span></td>
+                            <td>Table Row</td>
+                            <td>The table row container. You indicate the start of each row with &lt;tr&gt; and is followed by the &lt;td&gt; elements.</td>
+                        </tr>
+                        <tr>
+                            <td class="code"><span>&lt;td&gt;</span></td>
+                            <td>Table Data</td>
+                            <td>Each cell is represented using a &lt;td&gt; element.</td>
+                        </tr>
+                        <tr>
+                            <td class="code"><span>&lt;tfoot&gt;</span></td>
+                            <td>Table Footer</td>
+                            <td>The footer of the table belongs in the &lt;tfoot&gt; element.</td>
+                        </tr>
+                        
+                    </tbody>
+                    </thead>
+                </table>
+            </div>
+            <div id="attributes">
+                <h2>Table Attributes</h2>
+                    <table>
+                        <thead>
+                            <th>Attribute</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="code"><span>colspan</span></td>
+                                <td>Column Span</td>
+                                <td>Defines how columns a &lt;td&gt; element should span.</td>
+                            </tr>
+                            <tr>
+                                <td class="code"><span>rowspan</span></td>
+                                <td>Row Span</td>
+                                <td>Defines how many rows a &lt;td&gt; element should span.</td>
+                            </tr>
+                        </tbody>
+                        </table>
+            </div>
+            <div class="footer">Made by Lauren L. of MoonBean Labs.</div>
+        </main>
+    </body>
+</html>
